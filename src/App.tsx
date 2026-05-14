@@ -55,8 +55,8 @@ export default function App() {
             <span className="hidden sm:inline-block bg-slate-100 text-slate-500 text-[10px] px-1.5 py-0.5 rounded font-mono uppercase tracking-wider ml-1 truncate">
               Nutrition Calculator by Noah Dobie
             </span>
-            <span className="sm:hidden text-slate-500 text-[10px] font-mono uppercase tracking-wider truncate">
-              Nutrition Calculator
+            <span className="sm:hidden bg-slate-100 text-slate-500 text-[9px] px-1 py-0.5 rounded font-mono uppercase tracking-wider truncate">
+              Nutrition Calculator by Noah Dobie
             </span>
           </div>
 
@@ -159,39 +159,22 @@ export default function App() {
                 )}
               </div>
 
-              <div className="grid grid-cols-4 gap-2 sm:gap-4 p-3 sm:p-4 bg-slate-900 rounded-2xl text-white">
-                <div className="text-center min-w-0">
-                  <p className="text-[9px] sm:text-[10px] text-slate-400 uppercase font-black tracking-wider sm:tracking-widest leading-none mb-1">
-                    Calories
-                  </p>
-                  <p className="text-lg sm:text-xl font-bold tabular-nums">
-                    {Math.round(mealNutrition.calories)}
-                  </p>
-                </div>
-                <div className="text-center border-l border-slate-700 min-w-0">
-                  <p className="text-[9px] sm:text-[10px] text-slate-400 uppercase font-black tracking-wider sm:tracking-widest leading-none mb-1">
-                    Fat (g)
-                  </p>
-                  <p className="text-lg sm:text-xl font-bold tabular-nums">
-                    {mealNutrition.fat.toFixed(1)}
-                  </p>
-                </div>
-                <div className="text-center border-l border-slate-700 min-w-0">
-                  <p className="text-[9px] sm:text-[10px] text-slate-400 uppercase font-black tracking-wider sm:tracking-widest leading-none mb-1">
-                    Carbs (g)
-                  </p>
-                  <p className="text-lg sm:text-xl font-bold tabular-nums">
-                    {mealNutrition.carbohydrates.toFixed(1)}
-                  </p>
-                </div>
-                <div className="text-center border-l border-slate-700 min-w-0">
-                  <p className="text-[9px] sm:text-[10px] text-slate-400 uppercase font-black tracking-wider sm:tracking-widest leading-none mb-1">
-                    Protein (g)
-                  </p>
-                  <p className="text-lg sm:text-xl font-bold tabular-nums">
-                    {mealNutrition.protein.toFixed(1)}
-                  </p>
-                </div>
+              <div className="grid grid-cols-4 p-3 sm:p-4 bg-slate-900 rounded-2xl text-white">
+                {[
+                  { label: 'Calories', value: Math.round(mealNutrition.calories).toString() },
+                  { label: 'Fat', value: mealNutrition.fat.toFixed(1) },
+                  { label: 'Carbs', value: mealNutrition.carbohydrates.toFixed(1) },
+                  { label: 'Protein', value: mealNutrition.protein.toFixed(1) },
+                ].map((stat, i) => (
+                  <div key={stat.label} className={`flex flex-col items-center justify-center text-center px-1 ${i > 0 ? 'border-l border-slate-700' : ''}`}>
+                    <p className="text-[9px] sm:text-[10px] text-slate-400 uppercase font-black tracking-wide leading-none mb-1.5 w-full text-center">
+                      {stat.label}
+                    </p>
+                    <p className="text-base sm:text-xl font-bold tabular-nums">
+                      {stat.value}
+                    </p>
+                  </div>
+                ))}
               </div>
             </div>
 

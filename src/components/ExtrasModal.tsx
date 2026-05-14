@@ -2,7 +2,7 @@ import React, { useMemo, useState, useEffect } from 'react';
 import { X, Minus, Plus, Sparkles } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import type { ExtraOption, MenuItem, SelectedExtra } from '../types';
-import { getApplicableExtras } from '../data/menuData';
+import { getApplicableExtras, formatSize } from '../data/menuData';
 import { entryNutrition } from '../lib/nutritionUtils';
 
 interface ExtrasModalProps {
@@ -128,7 +128,7 @@ export const ExtrasModal: React.FC<ExtrasModalProps> = ({
                 <Section title="Dairy & Sugar">
                   {applicable.cream && (
                     <ExtraRow
-                      label={`Cream${applicable.cream.size ? ` (${applicable.cream.size})` : ''}`}
+                      label={`Cream${applicable.cream.size ? ` (${formatSize(applicable.cream.size)})` : ''}`}
                       sub={`+${applicable.cream.calories} cal each`}
                       qty={state.cream}
                       onDelta={(d) => setBasic('cream', d)}
@@ -136,7 +136,7 @@ export const ExtrasModal: React.FC<ExtrasModalProps> = ({
                   )}
                   {applicable.milk && (
                     <ExtraRow
-                      label={`2% Milk${applicable.milk.size ? ` (${applicable.milk.size})` : ''}`}
+                      label={`2% Milk${applicable.milk.size ? ` (${formatSize(applicable.milk.size)})` : ''}`}
                       sub={`+${applicable.milk.calories} cal each`}
                       qty={state.milk}
                       onDelta={(d) => setBasic('milk', d)}
@@ -144,7 +144,7 @@ export const ExtrasModal: React.FC<ExtrasModalProps> = ({
                   )}
                   {applicable.sugar && (
                     <ExtraRow
-                      label={`Sugar${applicable.sugar.size ? ` (${applicable.sugar.size})` : ''}`}
+                      label={`Sugar${applicable.sugar.size ? ` (${formatSize(applicable.sugar.size)})` : ''}`}
                       sub={`+${applicable.sugar.calories} cal each`}
                       qty={state.sugar}
                       onDelta={(d) => setBasic('sugar', d)}

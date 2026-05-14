@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { Search, Plus, Sparkles, Calculator } from 'lucide-react';
 import { Icon } from '@iconify/react';
-import { MENU_DATA, ALL_ITEMS } from '../data/menuData';
+import { MENU_DATA, ALL_ITEMS, formatSize } from '../data/menuData';
 import type { MenuItem } from '../types';
 import { motion, AnimatePresence } from 'motion/react';
 import {
@@ -176,7 +176,7 @@ export const ItemSelector: React.FC<ItemSelectorProps> = ({ onSelectItem }) => {
                         <span className="truncate">{item.baseName ?? item.name}</span>
                         {item.size && (
                           <span className="ml-1 mr-2 text-slate-500 font-normal shrink-0">
-                            ({item.size})
+                            ({formatSize(item.size)})
                           </span>
                         )}
                       </h4>
@@ -185,7 +185,6 @@ export const ItemSelector: React.FC<ItemSelectorProps> = ({ onSelectItem }) => {
                         {item.customizable && (
                           <span className="inline-flex items-center gap-0.5 text-red-600 font-semibold shrink-0">
                             <Sparkles className="w-2.5 h-2.5" />
-                            Customizable
                           </span>
                         )}
                       </div>

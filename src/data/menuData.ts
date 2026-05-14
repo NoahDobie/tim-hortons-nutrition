@@ -110,6 +110,18 @@ function parseSize(name: string): { base: string; size?: string } {
   return { base: name };
 }
 
+const SIZE_SHORT: Record<string, string> = {
+  Small: 'S',
+  Medium: 'M',
+  Large: 'L',
+  'X Large': 'XL',
+};
+
+export function formatSize(size: string | undefined): string | undefined {
+  if (!size) return undefined;
+  return SIZE_SHORT[size] ?? size;
+}
+
 const EXTRAS: ExtraOption[] = [];
 for (const it of items) {
   if (it.category !== 'Beverage Additions') continue;
