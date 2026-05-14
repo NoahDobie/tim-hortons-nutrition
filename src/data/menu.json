@@ -3877,7 +3877,7 @@
       }
     },
     {
-      "id": "chocolate-clair-donut",
+      "id": "chocolate-éclair-donut",
       "name": "Chocolate Éclair Donut",
       "base_name": "Chocolate Éclair Donut",
       "serving_size": null,
@@ -4150,7 +4150,7 @@
       }
     },
     {
-      "id": "maple-clair-donut",
+      "id": "maple-éclair-donut",
       "name": "Maple Éclair Donut",
       "base_name": "Maple Éclair Donut",
       "serving_size": null,
@@ -4533,7 +4533,7 @@
       "base_name": "Birthday Cake Timbit",
       "serving_size": null,
       "category": "Donuts",
-      "subcategory": "Timbits",
+      "subcategory": "Timbits®",
       "page": 10,
       "nutrition": {
         "calories_kcal": 80,
@@ -4554,7 +4554,7 @@
       "base_name": "Chocolate Glazed Timbit",
       "serving_size": null,
       "category": "Donuts",
-      "subcategory": "Timbits",
+      "subcategory": "Timbits®",
       "page": 10,
       "nutrition": {
         "calories_kcal": 80,
@@ -4575,7 +4575,7 @@
       "base_name": "Chocolate Snow Ball Timbit",
       "serving_size": null,
       "category": "Donuts",
-      "subcategory": "Timbits",
+      "subcategory": "Timbits®",
       "page": 10,
       "nutrition": {
         "calories_kcal": 70,
@@ -4596,7 +4596,7 @@
       "base_name": "Chocolate Toasted Coconut Timbit",
       "serving_size": null,
       "category": "Donuts",
-      "subcategory": "Timbits",
+      "subcategory": "Timbits®",
       "page": 10,
       "nutrition": {
         "calories_kcal": 90,
@@ -4617,7 +4617,7 @@
       "base_name": "Honey Dip Timbit",
       "serving_size": null,
       "category": "Donuts",
-      "subcategory": "Timbits",
+      "subcategory": "Timbits®",
       "page": 10,
       "nutrition": {
         "calories_kcal": 50,
@@ -4638,7 +4638,7 @@
       "base_name": "Old Fashioned Glazed Timbit",
       "serving_size": null,
       "category": "Donuts",
-      "subcategory": "Timbits",
+      "subcategory": "Timbits®",
       "page": 10,
       "nutrition": {
         "calories_kcal": 80,
@@ -4659,7 +4659,7 @@
       "base_name": "Old Fashioned Plain Timbit",
       "serving_size": null,
       "category": "Donuts",
-      "subcategory": "Timbits",
+      "subcategory": "Timbits®",
       "page": 11,
       "nutrition": {
         "calories_kcal": 60,
@@ -4680,7 +4680,7 @@
       "base_name": "Old Fashioned Sugar Timbit",
       "serving_size": null,
       "category": "Donuts",
-      "subcategory": "Timbits",
+      "subcategory": "Timbits®",
       "page": 11,
       "nutrition": {
         "calories_kcal": 70,
@@ -4701,7 +4701,7 @@
       "base_name": "Snow Ball Timbit",
       "serving_size": null,
       "category": "Donuts",
-      "subcategory": "Timbits",
+      "subcategory": "Timbits®",
       "page": 11,
       "nutrition": {
         "calories_kcal": 70,
@@ -4722,7 +4722,7 @@
       "base_name": "Sour Cream Glazed Timbit",
       "serving_size": null,
       "category": "Donuts",
-      "subcategory": "Timbits",
+      "subcategory": "Timbits®",
       "page": 11,
       "nutrition": {
         "calories_kcal": 90,
@@ -4743,7 +4743,7 @@
       "base_name": "Sour Cream Plain Timbit",
       "serving_size": null,
       "category": "Donuts",
-      "subcategory": "Timbits",
+      "subcategory": "Timbits®",
       "page": 11,
       "nutrition": {
         "calories_kcal": 80,
@@ -4764,7 +4764,7 @@
       "base_name": "Sour Cream Sugar Timbit",
       "serving_size": null,
       "category": "Donuts",
-      "subcategory": "Timbits",
+      "subcategory": "Timbits®",
       "page": 11,
       "nutrition": {
         "calories_kcal": 80,
@@ -4785,7 +4785,7 @@
       "base_name": "Strawberry Timbit",
       "serving_size": null,
       "category": "Donuts",
-      "subcategory": "Timbits",
+      "subcategory": "Timbits®",
       "page": 11,
       "nutrition": {
         "calories_kcal": 50,
@@ -4806,7 +4806,7 @@
       "base_name": "Toasted Coconut Timbit",
       "serving_size": null,
       "category": "Donuts",
-      "subcategory": "Timbits",
+      "subcategory": "Timbits®",
       "page": 11,
       "nutrition": {
         "calories_kcal": 90,
@@ -4827,7 +4827,7 @@
       "base_name": "Venetian Cream Timbit",
       "serving_size": null,
       "category": "Donuts",
-      "subcategory": "Timbits",
+      "subcategory": "Timbits®",
       "page": 11,
       "nutrition": {
         "calories_kcal": 50,
@@ -5011,7 +5011,7 @@
       }
     },
     {
-      "id": "reese-s-minis-dream-cookie",
+      "id": "reeses-minis-dream-cookie",
       "name": "Reese's Minis Dream Cookie",
       "base_name": "Reese's Minis Dream Cookie",
       "serving_size": null,
@@ -5032,7 +5032,7 @@
       }
     },
     {
-      "id": "dream-cookie-made-with-m-m-minis",
+      "id": "dream-cookie-made-with-mm-minis",
       "name": "Dream Cookie made with M&M Minis",
       "base_name": "Dream Cookie made with M&M Minis",
       "serving_size": null,
@@ -5977,7 +5977,7 @@
       }
     },
     {
-      "id": "sausage-farmer-s-wrap",
+      "id": "sausage-farmers-wrap",
       "name": "Sausage Farmer's Wrap",
       "base_name": "Sausage Farmer's Wrap",
       "serving_size": null,
@@ -5998,7 +5998,7 @@
       }
     },
     {
-      "id": "bacon-farmer-s-wrap",
+      "id": "bacon-farmers-wrap",
       "name": "Bacon Farmer's Wrap",
       "base_name": "Bacon Farmer's Wrap",
       "serving_size": null,
@@ -6019,7 +6019,7 @@
       }
     },
     {
-      "id": "sausage-bacon-farmer-s-wrap",
+      "id": "sausage-bacon-farmers-wrap",
       "name": "Sausage & Bacon Farmer's Wrap",
       "base_name": "Sausage & Bacon Farmer's Wrap",
       "serving_size": null,
@@ -6966,8 +6966,8 @@
     {
       "id": "chicken-noodle-soup-regular",
       "name": "Chicken Noodle Soup - Regular",
-      "base_name": "Chicken Noodle Soup",
-      "serving_size": "Regular",
+      "base_name": "Chicken Noodle Soup - Regular",
+      "serving_size": null,
       "category": "Lunch",
       "subcategory": "Soups & Chili",
       "page": 15,
@@ -7008,8 +7008,8 @@
     {
       "id": "cream-of-broccoli-soup-regular",
       "name": "Cream of Broccoli Soup - Regular",
-      "base_name": "Cream of Broccoli Soup",
-      "serving_size": "Regular",
+      "base_name": "Cream of Broccoli Soup - Regular",
+      "serving_size": null,
       "category": "Lunch",
       "subcategory": "Soups & Chili",
       "page": 16,
@@ -7050,8 +7050,8 @@
     {
       "id": "garden-minestrone-soup-regular",
       "name": "Garden Minestrone Soup - Regular",
-      "base_name": "Garden Minestrone Soup",
-      "serving_size": "Regular",
+      "base_name": "Garden Minestrone Soup - Regular",
+      "serving_size": null,
       "category": "Lunch",
       "subcategory": "Soups & Chili",
       "page": 16,
@@ -7092,8 +7092,8 @@
     {
       "id": "tomato-parmesan-soup-regular",
       "name": "Tomato Parmesan Soup - Regular",
-      "base_name": "Tomato Parmesan Soup",
-      "serving_size": "Regular",
+      "base_name": "Tomato Parmesan Soup - Regular",
+      "serving_size": null,
       "category": "Lunch",
       "subcategory": "Soups & Chili",
       "page": 16,
@@ -7134,8 +7134,8 @@
     {
       "id": "spicy-thai-soup-regular",
       "name": "Spicy Thai Soup - Regular",
-      "base_name": "Spicy Thai Soup",
-      "serving_size": "Regular",
+      "base_name": "Spicy Thai Soup - Regular",
+      "serving_size": null,
       "category": "Lunch",
       "subcategory": "Soups & Chili",
       "page": 16,
@@ -7176,8 +7176,8 @@
     {
       "id": "potato-bacon-soup-regular",
       "name": "Potato Bacon Soup - Regular",
-      "base_name": "Potato Bacon Soup",
-      "serving_size": "Regular",
+      "base_name": "Potato Bacon Soup - Regular",
+      "serving_size": null,
       "category": "Lunch",
       "subcategory": "Soups & Chili",
       "page": 16,
@@ -7218,8 +7218,8 @@
     {
       "id": "clam-chowder-regular",
       "name": "Clam Chowder - Regular",
-      "base_name": "Clam Chowder",
-      "serving_size": "Regular",
+      "base_name": "Clam Chowder - Regular",
+      "serving_size": null,
       "category": "Lunch",
       "subcategory": "Soups & Chili",
       "page": 16,
@@ -7260,8 +7260,8 @@
     {
       "id": "chili-regular",
       "name": "Chili - Regular",
-      "base_name": "Chili",
-      "serving_size": "Regular",
+      "base_name": "Chili - Regular",
+      "serving_size": null,
       "category": "Lunch",
       "subcategory": "Soups & Chili",
       "page": 16,

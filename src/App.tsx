@@ -66,7 +66,7 @@ export default function App() {
 
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-8 lg:py-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 lg:gap-12 items-start">
-          <div className="lg:col-span-5 flex flex-col h-[70vh] min-h-[420px] max-h-[640px] lg:h-[800px] lg:max-h-none">
+          <div className="lg:col-span-5 flex flex-col h-[70vh] min-h-105 max-h-160 lg:h-200 lg:max-h-none">
             <ItemSelector onSelectItem={handleSelectItem} />
           </div>
 
@@ -88,7 +88,7 @@ export default function App() {
                 )}
               </div>
 
-              <div className="min-h-[100px] max-h-[280px] sm:max-h-[340px] overflow-y-auto pr-1 sm:pr-2 space-y-2 mb-4 sm:mb-6 scrollbar-thin">
+              <div className="min-h-25 max-h-70 sm:max-h-85 overflow-y-auto pr-1 sm:pr-2 space-y-2 mb-4 sm:mb-6 scrollbar-thin">
                 <AnimatePresence mode="popLayout" initial={false}>
                   {entries.map((entry) => {
                     const total = entryNutrition(entry);
