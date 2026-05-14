@@ -12,7 +12,7 @@ import pdfplumber
 import json
 import re
 
-PDF_PATH = r"C:\github\tim-hortons-nutrition\Tim Hortons Nutrition Guide - March 2026.pdf"
+PDF_PATH = r"C:\github\tim-hortons-nutrition\nutrition-data\Tim Hortons Nutrition Guide - March 2026.pdf"
 OUT_PATH = r"C:\github\tim-hortons-nutrition\src\data\menu.json"
 
 NUTRITION_KEYS = [
